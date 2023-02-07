@@ -4,6 +4,9 @@ input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONL
 
 type Note @model {
   id: ID!
-  name: String!
-  description: String
+  name: String
+  pjcode: String
+  startat: String
+  endat: String
+  workstyle: String
 }
